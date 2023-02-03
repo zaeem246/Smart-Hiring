@@ -3,7 +3,6 @@ import os
 os.environ['PAFY_BACKEND'] = 'internal'
 import nltk
 import pafy
-from .pafy import new
 nltk.download('stopwords')
 import pandas as pd
 import base64,random
