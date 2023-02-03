@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+os.environ['PAFY_BACKEND'] = 'internal'
 import nltk
 import pafy
 from .pafy import new
